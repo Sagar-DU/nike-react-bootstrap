@@ -5,9 +5,19 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-h1{
+h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 36px;
 }
 
 /* 
@@ -19,11 +29,30 @@ header {
     background-color: #FFF9F4;
 }
 
-span {
+span , h3 {
     color: #FA804C;
 }
 
 button {
     background-image: linear-gradient(#3D4FF3,#3543BC);
     color: white;
+    width: 170px;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+/* 
+------------------------------
+    Products' Custom CSS 
+------------------------------
+*/
+
+.card > img {
+    border-radius: 5px;
+    background-color: #F1F1F1;
+}
+
+.buy {
+    background-color: white;
+    border: none;
 }
