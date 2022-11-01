@@ -33,7 +33,7 @@ span , h3 {
     color: #FA804C;
 }
 
-button {
+.custom-btn {
     background-image: linear-gradient(#3D4FF3,#3543BC);
     color: white;
     width: 170px;
